@@ -177,3 +177,53 @@ main {
 .footer-bw a:hover {
   text-decoration: underline;
 }
+
+/* ---------- Evidence photos / figures ---------- */
+.figure-bw {
+  border: 1px solid var(--bw-gray-light);
+  padding: 0.75rem;
+  height: 100%;
+}
+
+.figure-bw img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid var(--bw-black);
+}
+
+.figure-bw figcaption {
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+  color: var(--bw-gray);
+}
+
+.figure-bw figcaption strong {
+  color: var(--bw-black);
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-size: 0.8rem;
+  margin-bottom: 0.25rem;
+}
+
+.model-figure {
+  border: 1px solid var(--bw-black);
+  padding: 1rem;
+  background-color: var(--bw-white);
+}
+
+.model-figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.model-figure figcaption {
+  margin-top: 1rem;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.9rem;
+}
